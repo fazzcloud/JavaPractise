@@ -1,4 +1,4 @@
-package practise.test;
+package practise.test.base;
 
 /**
  * @Author: Fazzcloud
