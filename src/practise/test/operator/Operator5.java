@@ -5,7 +5,7 @@ package practise.test.operator;
  * @Date: 2021/12/10 7:44
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo11 {
+public class Operator5 {
     public static void main(String[] args) {
         //逻辑运算符，与（and） 或（or） 非（not取反）
         boolean a = false;

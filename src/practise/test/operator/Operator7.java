@@ -5,7 +5,7 @@ package practise.test.operator;
  * @Date: 2021/12/12 20:18
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo13 {
+public class Operator7 {
     public static void main(String[] args) {
         //x ？ y：z
         //如果x == true 那么结果为y，否则结果为z

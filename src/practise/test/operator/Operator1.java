@@ -5,7 +5,7 @@ package practise.test.operator;
  * @Date: 2021/12/10 7:11
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo7 {
+public class Operator1 {
     public static void main(String[] args) {
         //二元运算符
         //ctrl + d 复制当前行到下一行

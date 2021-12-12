@@ -5,7 +5,7 @@ package practise.test.base;
  * @Date: 2021/12/9 20:08
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo4 {
+public class Base3 {
     public static void main(String[] args) {
         //操作比较大的数字时，注意内存溢出的问题
         //JDK7新特性，数字之间可以用下划线分割

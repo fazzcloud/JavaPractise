@@ -5,7 +5,7 @@ package practise.test.operator;
  * @Date: 2021/12/10 7:29
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo10 {
+public class Operator4 {
     public static void main(String[] args) {
         //++ -- 自增，自减 一元运算符
         int a = 3;

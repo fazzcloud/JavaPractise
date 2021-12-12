@@ -5,7 +5,7 @@ package practise.test.operator;
  * @Date: 2021/12/12 20:09
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo12 {
+public class Operator6 {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;

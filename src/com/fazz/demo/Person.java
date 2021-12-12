@@ -1,4 +1,4 @@
-package com.demo.fazz;
+package com.fazz.demo;
 
 /**
  * @Author: Fazzcloud

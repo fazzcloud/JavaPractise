@@ -5,7 +5,7 @@ package practise.test.base;
  * @Date: 2021/12/8 20:56
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo1 {
+public class Base1 {
     public static void main(String[] args) {
         //整数拓展：进制 二进制0b 十进制 八进制0 十六进制0x
         int i = 10;

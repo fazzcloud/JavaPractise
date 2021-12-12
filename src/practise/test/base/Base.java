@@ -5,7 +5,7 @@ package practise.test.base;
  * @Date: 2021/12/8 20:44
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo {
+public class Base {
     public static void main(String[] args) {
         //八大基本数据类型
 

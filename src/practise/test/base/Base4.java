@@ -5,7 +5,7 @@ package practise.test.base;
  * @Date: 2021/12/9 20:22
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo5 { //类
+public class Base4 { //类
     //属性：变量
 
     //类变量：static
@@ -24,9 +24,9 @@ public class Demo5 { //类
         String name = "fazz";
 
         //使用实例变量：变量类型 变量名字  = new Demo5（）；
-        Demo5 demo5 = new Demo5();
-        System.out.println(demo5.sex);
-        System.out.println(demo5.age);
+        Base4 base4 = new Base4();
+        System.out.println(base4.sex);
+        System.out.println(base4.age);
 
         //类变量可以直接调用
         System.out.println(salary);

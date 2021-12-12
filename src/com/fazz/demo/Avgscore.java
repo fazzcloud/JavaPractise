@@ -1,4 +1,4 @@
-package com.demo.fazz;
+package com.fazz.demo;
 
 import java.util.Scanner;
 

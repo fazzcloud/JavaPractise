@@ -5,7 +5,7 @@ package practise.test.base;
  * @Date: 2021/12/9 19:59
  * @Description: 手握日月摘星辰，世间无我这般人
  */
-public class Demo3 {
+public class Base2 {
     public static void main(String[] args) {
         int i = 128;
         byte b = (byte)i; //i超过了byte最大值，所以这里会内存溢出
