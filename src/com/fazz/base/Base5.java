@@ -1,4 +1,4 @@
-package practise.test.base;
+package com.fazz.base;
 
 /**
  * @Author: Fazzcloud

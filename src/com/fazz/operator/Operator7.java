@@ -1,4 +1,4 @@
-package practise.test.operator;
+package com.fazz.operator;
 
 /**
  * @Author: Fazzcloud
