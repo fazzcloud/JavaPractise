@@ -9,6 +9,7 @@ import java.util.Scanner;
  */
 public class MathTest01 {
     public static void main(String[] args) {
+        //写出四个方法，可选择计算方法，进行加减乘除运算
 
         while (true){
             Scanner scanner = new Scanner(System.in);
@@ -44,8 +45,8 @@ public class MathTest01 {
                     break;
                 case "d":
                     System.out.println("请输入两个数：");
-                    int d1 = scanner.nextInt();
-                    int d2 = scanner.nextInt();
+                    double d1 = scanner.nextInt();
+                    double d2 = scanner.nextInt();
                     Division(d1,d2);
                     break;
             }
@@ -105,8 +106,8 @@ public class MathTest01 {
     }
 
     //定义一个除法
-    public static void Division(int... divisionNum){
-        int divisionSum = 1;
+    public static void Division(double... divisionNum){
+        double divisionSum = 1.0;
         if (divisionNum.length == 0){
             System.out.println("输入的数字为空！");
             return ;
