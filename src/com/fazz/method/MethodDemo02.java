@@ -25,4 +25,20 @@ public class MethodDemo02 {
         }
         return max;
     }
+
+    //比大小，方法重载
+    public static double Max(double a,double b){
+        double max = 0;
+        if (a == b){
+            System.out.println("a == b");
+            return 0;//return除了返回值外，还用于终止方法。
+        }
+        else if (b > a){
+            max = b;
+        }
+        else {
+            max = a;
+        }
+        return max;
+    }
 }
