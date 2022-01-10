@@ -11,6 +11,7 @@ public class MathTest01 {
     public static void main(String[] args) {
         //写出四个方法，可选择计算方法，进行加减乘除运算
 
+        //while(true)无限循环
         while (true){
             Scanner scanner = new Scanner(System.in);
             System.out.println("请选择需要进行的计算：");
@@ -21,10 +22,14 @@ public class MathTest01 {
 
             String choose = scanner.nextLine();//接受用户的选择
 
+            //根剧接受的输入判断算法
             switch(choose){
+
+                //没有输入数字，默认提示
                 default:
                     System.out.println("请重新选择。");
                     break;
+                //根据选择调用对应方法
                 case "a":
                     System.out.println("请输入两个数：");
                     int a1 = scanner.nextInt();
@@ -53,6 +58,7 @@ public class MathTest01 {
 
             System.out.println("是否需要继续计算？Y/N");
             String result = scanner.next();
+            //根剧接受的输入判断是否结束循环
             if ( "N".equals(result) || "n".equals(result)){
                 scanner.close();
                 System.out.println("bye~");
