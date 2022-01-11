@@ -1,6 +1,7 @@
 package com.oop;
 
-import com.oop.demo03.Pet;
+import com.oop.demo05.A;
+import com.oop.demo05.B;
 
 /**
  * @Author: Fazzcloud
@@ -9,18 +10,7 @@ import com.oop.demo03.Pet;
  */
 //一个项目只有一个main方法
 public class Appliaction {
-    public static void main(String[] args) {
-        Pet dog = new Pet();
 
-        dog.name = "小黄";
-        dog.age = 3;
-        dog.shot();
-
-        System.out.println(dog.name);
-        System.out.println(dog.age);
-
-        Pet cat = new Pet();
-    }
 
 }
 
