@@ -17,3 +17,17 @@ public class Pet {
         System.out.println("叫了一声");
     }
 }
+/*
+public static void main(String[] args) {
+        Pet dog = new Pet();
+
+        dog.name = "小黄";
+        dog.age = 3;
+        dog.shot();
+
+        System.out.println(dog.name);
+        System.out.println(dog.age);
+
+        Pet cat = new Pet();
+    }
+ */
