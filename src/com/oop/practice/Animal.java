@@ -11,5 +11,5 @@ public abstract class Animal {
     private String name;
 
     //定义抽象方法：calcPrice
-    public abstract void calcPrice();
+    public abstract int calcPrice();
 }

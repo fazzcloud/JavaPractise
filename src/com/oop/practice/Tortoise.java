@@ -7,8 +7,13 @@ package com.oop.practice;
  */
 //定义子类：乌龟，继承宠物类
 public class Tortoise extends Animal{
-    @Override//实现抽象方法（本宠物总价计算：单价 * 数量）
-    public void calcPrice() {
+    private int number;
+    private int price;
 
+
+    @Override//实现抽象方法（本宠物总价计算：单价 * 数量）
+    public int calcPrice() {
+        int sumPrice = number * price;
+        return sumPrice;
     }
 }
