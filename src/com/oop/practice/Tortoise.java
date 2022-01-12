@@ -10,6 +10,21 @@ public class Tortoise extends Animal{
     private int number;
     private int price;
 
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
 
     @Override//实现抽象方法（本宠物总价计算：单价 * 数量）
     public int calcPrice() {
