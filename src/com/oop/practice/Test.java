@@ -7,4 +7,7 @@ package com.oop.practice;
  */
 //定义超市入口类
 public class Test {
+    public static void main(String[] args) {
+
+    }
 }
