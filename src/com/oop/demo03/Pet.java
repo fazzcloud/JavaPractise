@@ -5,6 +5,7 @@ package com.oop.demo03;
  * @Date: 2022/1/11 11:16
  * @Description: 手握日月摘星辰，世间无我这般人
  */
+//实例化对象
 public class Pet {
     public String name;
     public int age;

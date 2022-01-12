@@ -7,6 +7,5 @@ package com.oop;
  */
 //一个项目只有一个main方法
 public class Appliaction {
-
 }
 

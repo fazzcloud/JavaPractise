@@ -5,6 +5,7 @@ package com.oop.demo04;
  * @Date: 2022/1/11 14:54
  * @Description: 手握日月摘星辰，世间无我这般人
  */
+//封装
 public class Student02 {
 
     //属性私有

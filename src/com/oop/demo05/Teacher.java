@@ -5,6 +5,7 @@ package com.oop.demo05;
  * @Date: 2022/1/11 15:17
  * @Description: 手握日月摘星辰，世间无我这般人
  */
+//super关键字
 public class Teacher extends Person02{
     private String name;
 
