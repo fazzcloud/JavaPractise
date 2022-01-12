@@ -12,4 +12,12 @@ public abstract class Animal {
 
     //定义抽象方法：calcPrice
     public abstract int calcPrice();
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

@@ -28,7 +28,7 @@ public class Tortoise extends Animal{
 
     @Override//实现抽象方法（本宠物总价计算：单价 * 数量）
     public int calcPrice() {
-        int sumPrice = number * price;
+        int sumPrice = this.number * this.price;
         return sumPrice;
     }
 }
