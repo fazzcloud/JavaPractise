@@ -26,9 +26,30 @@ public class Tortoise extends Animal{
         this.price = price;
     }
 
+
+
     @Override//实现抽象方法（本宠物总价计算：单价 * 数量）
     public int calcPrice() {
         int sumPrice = this.number * this.price;
         return sumPrice;
+    }
+
+    //计算猪鼻龟的本次数量的价格
+    public int FinalPriceA(int number){
+        int finalPrice;
+        this.setName("猪鼻龟");
+        this.setNumber(number);//接收数量
+        this.setPrice(50);
+        finalPrice = this.calcPrice();//调用重写的父类方法
+        return finalPrice;
+    }
+    //计算金钱龟的本次数量的价格
+    public int FinalPriceB(int number){
+        int finalPrice;
+        this.setName("金钱龟");
+        this.setNumber(number);
+        this.setPrice(30);
+        finalPrice = this.calcPrice();
+        return finalPrice;
     }
 }

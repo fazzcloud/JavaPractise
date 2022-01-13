@@ -8,7 +8,7 @@ package com.oop.practice;
 //抽象类：宠物
 public abstract class Animal {
     //定义属性name（抽象类中属性必须是常量，所以要在子类中定义）
-    private String name;
+    protected String name;
 
     //定义抽象方法：calcPrice
     public abstract int calcPrice();

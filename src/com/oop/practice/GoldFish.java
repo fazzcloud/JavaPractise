@@ -31,4 +31,23 @@ public class GoldFish extends Animal{
         int sumPrice = number * price;
         return sumPrice;
     }
+
+    //计算红龙眼金鱼的本次数量的价格
+    public int FinalPriceA(int number){
+        int finalPrice;
+        this.setName("红龙眼金鱼");
+        this.setNumber(number);//接收数量
+        this.setPrice(10);
+        finalPrice = this.calcPrice();//调用重写的父类方法
+        return finalPrice;
+    }
+    //计算紫龙睛金鱼的本次数量的价格
+    public int FinalPriceB(int number){
+        int finalPrice;
+        this.setName("紫龙睛金鱼");
+        this.setNumber(number);
+        this.setPrice(20);
+        finalPrice = this.calcPrice();
+        return finalPrice;
+    }
 }
