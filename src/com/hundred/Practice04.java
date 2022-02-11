@@ -25,5 +25,6 @@ public class Practice04 {
             num = num / 10;//降位
         }
         System.out.println("输出:"+res);
+        scanner.close();
     }
 }
