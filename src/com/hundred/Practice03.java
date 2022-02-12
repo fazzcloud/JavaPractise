@@ -15,7 +15,6 @@ import java.util.Scanner;
 public class Practice03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         try{
             System.out.println("请输入java成绩：");
             int res_java = scanner.nextInt();
@@ -35,9 +34,5 @@ public class Practice03 {
             System.out.println("输入的不是数字请重新输入！");
         }
         scanner.close();
-
-
-
-
     }
 }
