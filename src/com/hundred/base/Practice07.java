@@ -1,4 +1,4 @@
-package com.hundred;
+package com.hundred.base;
 
 /**
  * @Author: Fazzcloud
@@ -17,7 +17,7 @@ public class Practice07 {
         int n = m++ + ++m; // 4 + 4，m++是先计算再累加，++m是先累加再计算
         System.out.println("m:"+m+", n:"+n); //5，8,
 
-        char c = 97;//计算机本质都是二进制的数字，97在二进制中对应了a
+        char c = 97;//本质都是二进制的数字，97在二进制中对应了a
         System.out.println(c);
     }
 }

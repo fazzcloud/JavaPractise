@@ -1,4 +1,4 @@
-package com.hundred;
+package com.hundred.base;
 
 import java.util.Scanner;
 
