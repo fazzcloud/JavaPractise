@@ -49,8 +49,5 @@ public class Practice08 {
             }
         scanner.close();
         }
-
-
-
     }
 
