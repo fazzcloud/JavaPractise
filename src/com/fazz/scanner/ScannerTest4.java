@@ -11,7 +11,6 @@ public class ScannerTest4 {
     public static void main(String[] args) {
         Scanner scanner =   new Scanner(System.in);
 
-
         //定义一个和
         double sum = 0;
         //定义输入了多少个数字

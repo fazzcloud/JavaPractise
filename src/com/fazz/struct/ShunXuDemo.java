@@ -12,6 +12,5 @@ public class ShunXuDemo {
         System.out.println("顺序3");
         System.out.println("顺序4");
         System.out.println("顺序5");
-
     }
 }
